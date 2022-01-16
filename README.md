@@ -19,12 +19,13 @@
      * **Raymon Anthony Doane** received **11,606** votes, for **3.1%** of the total votes cast
   -  Just like with the counties, by looping through the dictionary of cadidates we can calculate the winner of the election *(line 125-142[^1])*. Doing this we see that **Diana DeGette** was the clear winner of this election, with **73.8%** of the total votes cast going to her. That's **272,892** votes that she received.
 
-Below you can see a terminal printout of this summary of the data...
+Below you can see a terminal printout of the results...
+
 ![Election Results](Resources/TerminalPrintout.png)
 
 
 ## Summary
 
-  Re
+  As can seen above, this type of tool can easily be used to calculate election results. With few changes this program could be used to calculate the result of almost any election. Most elections are made up of more then one race. A column would need to be added to the dataset to inform which race the vote pertains to; ie President; Senetor; Congress; Judge. For races like Senetor, Congress and judge we would also need to define which spefic senetorial, congessional or judicial race that vote is for. To support this new information we would need to modify the code as well. One way to that is to modify the dictionary structure used to hold the candidates, and nest that dictionary inside another dictionary of Races, so it would look something like this....{"President": {"Name1":"VoteCount", "Name2":"VoteCount"}, "Senate": {"Name1":"VoteCount", "Name2":"VoteCount"}}. Then when adding the caditate data each row, we just need to make sure we addiing it to the correct sub-dictionary. As you can see, with just those two changes, modifying the dataset, and modifying the code, this program can work for any election.
 
 [^1]:  [Refers to file PyPoll.py](PyPoll.py)
