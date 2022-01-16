@@ -1,5 +1,4 @@
-# stock-analysis
-
+# Election Audit Tool
 ## Overview of Project
 
 ### The purpose of this analysis is to create a program that can be used to examine a set of election results to determine a couple different things. First we wanted to figure out how many votes each candidate received in the election and use that data to determine a winner. Secondly we wanted establish how many votes were cast in each of the couties in the dataset, and which county represented the most votes.
