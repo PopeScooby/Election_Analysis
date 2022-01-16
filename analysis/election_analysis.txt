@@ -10,7 +10,7 @@ Denver: 82.8% (306,055)
 Arapahoe: 6.7% (24,801)
 -------------------------
 County With Largest Turnout: Denver
-County Vote Count: 306,055
+Denver Vote Count: 306,055
 -------------------------
 
 Candidate Votes:
